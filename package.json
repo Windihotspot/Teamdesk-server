@@ -1,0 +1,60 @@
+{
+  "name": "teamdesk",
+  "version": "1.0.0",
+  "description": "teamdesk",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "nodemon --watch src --exec tsx src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "y"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.101.0",
+    "compression": "^1.8.1",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^4.22.1",
+    "express-async-errors": "^3.1.1",
+    "express-rate-limit": "^8.3.2",
+    "helmet": "^8.1.0",
+    "morgan": "^1.10.1",
+    "node-cron": "^4.2.1",
+    "pg": "^8.20.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "uuid": "^13.0.0",
+    "winston": "^3.19.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^20.5.0",
+    "@commitlint/config-conventional": "^20.5.0",
+    "@eslint/js": "^10.0.1",
+    "@types/compression": "^1.8.1",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/morgan": "^1.9.10",
+    "@types/node": "^25.5.0",
+    "@types/node-cron": "^3.0.11",
+    "@types/pg": "^8.20.0",
+    "@types/supertest": "^7.2.0",
+    "@types/swagger-jsdoc": "^6.0.4",
+    "@types/swagger-ui-express": "^4.1.8",
+    "@types/uuid": "^11.0.0",
+    "@vitest/coverage-v8": "^4.1.2",
+    "newman": "^6.2.2",
+    "nodemon": "^3.1.14",
+    "prettier": "^3.8.1",
+    "supertest": "^7.2.2",
+    "tsc-alias": "^1.8.16",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2",
+    "typescript-eslint": "^8.58.0",
+    "vitest": "^4.1.2"
+  }
+}
