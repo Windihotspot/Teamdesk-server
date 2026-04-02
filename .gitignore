@@ -141,8 +141,6 @@ vite.config.ts.timestamp-*
 # MegaTransact Credit — project-specific
 logs/
 postman/*
-!postman/MegaTransact-Credit.postman_collection.json
-!postman/localhost.postman_environment.json
 scripts/init-db.sql
 coverage/
 .vscode/settings.json
